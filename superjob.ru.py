@@ -13,7 +13,7 @@ params = {
 }
 
 headers = {
-    'X-Api-App-Id': 'ваш API-ключ',
+    'X-Api-App-Id': 'v3.h.4458973.6fdfa2327420abc8efc1e7f9a0a39a0993bce569.1407b0e49c8811e4492f2928b2092c53d560bc7b',
     'Content-Type': 'application/json'
 }
 

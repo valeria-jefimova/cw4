@@ -4,7 +4,7 @@ from vacancy import Vacancy
 from vacancy_repository import VacancyRepository
 
 
-class JSONSaver(VacancyRepository):
+class JsonVacancyRepository(VacancyRepository):
     """
     Предназначен для сохранения информации о вакансиях в формате JSON в файле
     и для выполнения операций с данными в этом файле.

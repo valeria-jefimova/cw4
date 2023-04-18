@@ -3,7 +3,7 @@ from vacancy import Vacancy
 
 
 def run_console_interface():
-    repo = JsonVacancyRepository('vacancies.json')
+    repo = ('vacancies.json')
 
     while True:
         print('Выберите действие:')

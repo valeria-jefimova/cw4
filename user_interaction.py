@@ -1,4 +1,4 @@
-from json_vacancy_repository import JsonVacancyRepository
+
 from vacancy import Vacancy
 
 

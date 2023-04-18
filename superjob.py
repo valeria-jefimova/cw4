@@ -18,3 +18,8 @@ with open('vacancies.json', 'w') as file:
 """
 Это условие проверяет, был ли успешный ответ от сервера
 """
+if response.status_code == 200:
+    vacancies = response.json()
+    print(vacancies)
+else:
+    print(f'Request failed with error {response.status_code}: {response.text}')
